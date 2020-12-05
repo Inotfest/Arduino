@@ -18,11 +18,7 @@ void setup() {
   lcd.begin(16, 2);
   lcd.setCursor(3, 0);
   lcd.print("Hello, Dima");
-  delay(3000);
-  lcd.clear();
-  lcd.setCursor(3,0);
-  lcd.print("What's up?");
-  delay(3000);
+  delay(5000);
   lcd.clear();
 }
 
